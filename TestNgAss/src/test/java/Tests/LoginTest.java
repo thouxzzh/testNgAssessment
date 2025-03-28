@@ -34,8 +34,8 @@ public class LoginTest {
 
     @DataProvider(name = "loginData")
     public Object[][] getData() {
-        String excelPath = "C:\\Users\\Public\\seleniumAss\\TestNgAss\\src\\test\\resources\\testNg_Ass.xlsx";
-        return ExcelUtils.getTestData("C:\\Users\\Public\\seleniumAss\\TestNgAss\\src\\test\\resources\\testNg_Ass.xlsx", "Sheet1");
+        String excelPath = "C:\\Users\\thous\\git\\TestNgAss\\TestNgAss\\src\\test\\resources\\testNg_Ass.xlsx";
+        return ExcelUtils.getTestData("C:\\Users\\thous\\git\\TestNgAss\\TestNgAss\\src\\test\\resources\\testNg_Ass.xlsx", "Sheet1");
     }
 
     @AfterMethod
