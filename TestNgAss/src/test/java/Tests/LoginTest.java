@@ -32,7 +32,6 @@ public class LoginTest {
         }
     }
 
-    // Data Provider using Excel
     @DataProvider(name = "loginData")
     public Object[][] getData() {
         String excelPath = "C:\\Users\\Public\\seleniumAss\\TestNgAss\\src\\test\\resources\\testNg_Ass.xlsx";

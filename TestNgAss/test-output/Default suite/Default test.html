@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>2/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>4/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Mar 28 12:00:58 IST 2025</td>
+<td>Started on:</td><td>Fri Mar 28 13:05:49 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>5 seconds (5473 ms)</td>
+<tr><td>Total time:</td><td>12 seconds (12824 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,19 +76,15 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='Tests.LoginTest.testLogin()'><b>testLogin</b><br>Test class: Tests.LoginTest<br>Parameters: standard_user1, secret_sauce2, Username and password does not match</td>
-<td><div><pre>java.lang.AssertionError: Error message expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1590)
-	at org.testng.Assert.assertTrue(Assert.java:57)
-	at Tests.LoginTest.testLogin(LoginTest.java:31)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+<td title='Tests.LoginTest.testLogin()'><b>testLogin</b><br>Test class: Tests.LoginTest</td>
+<td><div><pre>org.testng.TestNGException: 
+Data Provider public java.lang.Object[][] Tests.LoginTest.getData() returned a null value
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:161)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:809)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:734)
+	at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+	at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:949)
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
 	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
@@ -108,19 +104,15 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div><a href='#' onClick='toggleBox("stack-trace532297836", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace532297836'><pre>java.lang.AssertionError: Error message expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1590)
-	at org.testng.Assert.assertTrue(Assert.java:57)
-	at Tests.LoginTest.testLogin(LoginTest.java:31)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+</pre></div><a href='#' onClick='toggleBox("stack-trace626193099", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace626193099'><pre>org.testng.TestNGException: 
+Data Provider public java.lang.Object[][] Tests.LoginTest.getData() returned a null value
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:161)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:809)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:734)
+	at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+	at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:949)
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
 	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
@@ -142,7 +134,7 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
 <td>0</td>
-<td>Tests.LoginTest@34e9fd99</td></tr>
+<td>Tests.LoginTest@1ce24091</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -153,15 +145,25 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='Tests.LoginTest.testLogin()'><b>testLogin</b><br>Test class: Tests.LoginTest<br>Parameters: , secret_sauce, Username is required</td>
+<td title='Tests.main.removeFromCartTest()'><b>removeFromCartTest</b><br>Test class: Tests.main</td>
 <td></td>
 <td>0</td>
-<td>Tests.LoginTest@34e9fd99</td></tr>
+<td>Tests.main@367ffa75</td></tr>
 <tr>
-<td title='Tests.LoginTest.testLogin()'><b>testLogin</b><br>Test class: Tests.LoginTest<br>Parameters: standard_user, , Password is required</td>
+<td title='Tests.main.checkoutTest()'><b>checkoutTest</b><br>Test class: Tests.main</td>
+<td></td>
+<td>1</td>
+<td>Tests.main@367ffa75</td></tr>
+<tr>
+<td title='Tests.main.loginTest()'><b>loginTest</b><br>Test class: Tests.main</td>
+<td></td>
+<td>4</td>
+<td>Tests.main@367ffa75</td></tr>
+<tr>
+<td title='Tests.main.addToCartTest()'><b>addToCartTest</b><br>Test class: Tests.main</td>
 <td></td>
 <td>0</td>
-<td>Tests.LoginTest@34e9fd99</td></tr>
+<td>Tests.main@367ffa75</td></tr>
 </table><p>
 </body>
 </html>
